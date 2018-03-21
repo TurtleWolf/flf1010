@@ -1,0 +1,64 @@
+{
+  "name": "Barrel",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "default": "Barrel #0048"
+    },
+    "barrel_number": {
+      "type": "number",
+      "required": true,
+      "default": 48
+    },
+    "date_planted": {
+      "type": "date",
+      "required": true,
+      "default": "2018-03-20T00:00:00.000Z"
+    },
+    "size": {
+      "type": "string",
+      "required": true,
+      "default": "1 gallon"
+    },
+    "contents": {
+      "type": "string",
+      "required": true,
+      "default": "sunchoke, air potato, walking onion"
+    },
+    "location": {
+      "type": "string",
+      "required": true,
+      "default": "EBF"
+    },
+    "geoLocaction": {
+      "type": "geopoint",
+      "required": true,
+      "default": {
+        "lat": 35.5951,
+        "lng": 82.5515
+      }
+    },
+    "date_last_checked": {
+      "type": "date",
+      "required": true,
+      "default": "2017-11-20T00:00:00.000Z"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string",
+      "default": "https://goo.gl/photos/p3jXTkmstWyUvA2r5"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

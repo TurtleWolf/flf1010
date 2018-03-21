@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mLAB": {
+    "host": "",
+    "port": 61678,
+    "url": "mongodb://food-liberation-front:92!1WdzRBH*a@ds261678.mlab.com:61678/food-liberation-front",
+    "database": "food-liberation-front",
+    "password": "92!1WdzRBH*a",
+    "name": "mLAB",
+    "user": "food-liberation-front",
+    "connector": "mongodb"
+  }
+}
