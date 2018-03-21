@@ -1,8 +1,8 @@
 # Food_Liberation_Front  
 ### loopBACK &amp; react on Cloud 9  
 ```
+cd Food_Liberation_Front
 npm install
-cd Food_Lieraton_Front
 node .
 ```
 ### or to recreate from scratch.. 
