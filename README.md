@@ -4,6 +4,12 @@ http://loopback.io/doc/en/lb3/Create-new-data-source.html
 ## [Create a simple API](http://loopback.io/doc/en/lb3/Create-a-simple-API.html "Use the application generator tool to quickly create a LoopBack application, data sources, and models.")  
 
 ```
+npm install
+cd Food_Lieraton_Front
+node .
+```
+### or to recreate from scratch..  
+```
 npm install -g loopback-cli
 ```
 ```
