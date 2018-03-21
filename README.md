@@ -40,14 +40,15 @@ lb model
   "properties": {
     "Name": {
       "type": "string",
-      "default": "Barrle #001"
+      "required": true,
+      "default": "Barrel #0048"
     },
-    "Number": {
+    "barrel_number": {
       "type": "number",
       "required": true,
       "default": 48
     },
-    "planted_date": {
+    "date_planted": {
       "type": "date",
       "required": true,
       "default": "2018-03-20T00:00:00.000Z"
@@ -67,17 +68,18 @@ lb model
       "required": true,
       "default": "EBF"
     },
-    "geoLocation": {
+    "geoLocaction": {
       "type": "geopoint",
+      "required": true,
       "default": {
-        "lat": 19,
-        "lng": 28
+        "lat": 35.5951,
+        "lng": 82.5515
       }
     },
     "date_last_checked": {
       "type": "date",
       "required": true,
-      "default": "2018-03-20T00:00:00.000Z"
+      "default": "2017-11-20T00:00:00.000Z"
     },
     "notes": {
       "type": "string"
@@ -88,6 +90,7 @@ lb model
     }
   },
 }
+
 ```
 ```
 node .
