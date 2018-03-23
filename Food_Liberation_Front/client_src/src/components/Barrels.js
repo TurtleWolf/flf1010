@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import BarrelItem from './BarrelItem';
 import axios from 'axios';
+import BarrelItem from './BarrelItem';
 import '../App.css';
 
 class Barrels extends Component {
@@ -23,6 +23,7 @@ class Barrels extends Component {
         console.log(this.state);
       })
     })
+    .catch(err => console.log(err));
   }
   
   render() {
