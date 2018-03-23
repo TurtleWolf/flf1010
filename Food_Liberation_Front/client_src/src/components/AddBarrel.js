@@ -1,11 +1,25 @@
 import React, { Component } from 'react';
-//import axios from 'axios';
+import axios from 'axios';
 import { Link } from 'react-router-dom';
 
 class AddBarrel extends Component {
 
+    addBarrel(newBarrel){
+        console.log(newBarrel);
+        axios.request({
+            method:'post',
+            url:'http://foood-liberation-front-turtlewolfe.c9users.io:8080/api/Barrels',
+            data: newBarrel
+        }).then(response => {
+            this.props.history.push('/');
+        }).catch( err => console.log(err));
+    }
+
     onSubmit(e){
-        console.log(this.refs.name.value);
+        const newBarrel = {
+            name: this.refs.name.value
+        }
+        this.addBarrel(newBarrel);
         e.preventDefault();
     }
 
