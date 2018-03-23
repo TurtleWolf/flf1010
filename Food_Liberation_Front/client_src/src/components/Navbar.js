@@ -9,7 +9,7 @@ class NavBar extends Component {
       <div>
   <nav className="green darken-3">
     <div className="nav-wrapper">
-      <a href="/" className="brand-logo"><img src={logo} className="App-logo" alt="logo" /></a>
+      <a href="/" className="brand-logo">Food Liberation Front</a>
       <a data-activates="main-menu" className="button-collapse show-on-large"><i className="fa fa-bars"></i></a>
       <ul className="right hide-on-small-only">
         <li><Link to ="/"><i className="fa fa-database"></i> Barrels</Link></li>
@@ -17,7 +17,7 @@ class NavBar extends Component {
       <ul className="side-nav" id="main-menu">
 <li><Link to ="/"><i className="fab fa-rebel"></i> All the Barrels</Link></li>
 <li><Link to ="/barrels/add"><i className="fa fa-plus"></i> Add a Barrel</Link></li>
-<li><Link to ="/about"><i className="fa fa-question-circle"></i> About a Barrel</Link></li>
+<li><Link to ="/about"><i class="fab fa-empire"></i> frontlines of food & liberty</Link></li>
       </ul>
     </div>
   </nav>

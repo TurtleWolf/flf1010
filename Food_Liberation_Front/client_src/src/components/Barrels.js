@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import BarrelItem from './BarrelItem';
 import '../App.css';
+import logo from '../logo.svg';
 
 class Barrels extends Component {
   constructor (){
@@ -41,7 +42,9 @@ class Barrels extends Component {
         {barrelItems}
         </ul>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+        TurtleWolfe.com<br/>
+        using LoopBack & React<br/>
+        <img src={logo} className="App-logo" alt="logo" />
         </p>
       </div>
     );
