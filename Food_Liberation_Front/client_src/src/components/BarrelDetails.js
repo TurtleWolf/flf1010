@@ -42,8 +42,8 @@ render () {
             <li className = "collection-item" >size: <b className = "yellow" > {this.state.details.size}</b> </li>
             <li className = "collection-item" >last checked: <b className = "yellow" > {this.state.details.date_last_checked}</b> </li>
             </ul>
-            <Link className = "btn left" to = {`/barrels/edit/${this.state.details.id}`}><i class="fas fa-pencil-alt"></i> Edit this Barrel</Link>
-            <button className = "btn red right"><i class="far fa-trash-alt"></i> Delete this Barrel</button>
+            <Link className = "btn left" to = {`/barrels/edit/${this.state.details.id}`}><i className = "fas fa-pencil-alt" ></i> Edit this Barrel</Link>
+            <button className = "btn red right"><i className ="far fa-trash-alt"></i> Delete this Barrel</button>
             </div>
            )
 }
