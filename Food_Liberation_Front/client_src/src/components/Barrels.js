@@ -33,7 +33,7 @@ class Barrels extends Component {
         )
     })
     return (
-      <div className="App">
+      <div className="container">
         <header className="App-header">
           <h1 className="App-title">Barrels</h1>
         </header>
