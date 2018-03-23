@@ -33,14 +33,14 @@ render () {
             <Link className = "btn grey" to = "/">back</Link>
             <h3>{this.state.details.Name}</h3>
             <ul className = "collection" >
-            <li className = "collection-item" >planted: <b>{this.state.details.date_planted}</b> </li>
-            <li className = "collection-item" >Barrel #: <b>{this.state.details.barrel_number}</b> </li>
-            <li className = "collection-item" ><b>{this.state.details.contents}</b> </li>
-            <li className = "collection-item" >location: <b>{this.state.details.location}</b> </li>
-            <li className = "collection-item" >geolocation: <b>this.state.details.geoLocaction.toString()</b> </li>
-            <li className = "collection-item" >notes: <b>{this.state.details.notes}</b> </li>
-            <li className = "collection-item" >size: <b>{this.state.details.size}</b> </li>
-            <li className = "collection-item" >last checked: <b>{this.state.details.date_last_checked}</b> </li>
+            <li className = "collection-item" >planted: <b className = "yellow" > {this.state.details.date_planted}</b> </li>
+            <li className = "collection-item" >Barrel #: <b className = "yellow" > {this.state.details.barrel_number}</b> </li>
+            <li className = "collection-item" ><b className = "yellow" > {this.state.details.contents}</b> </li>
+            <li className = "collection-item" >location: <b className = "yellow" > {this.state.details.location}</b> </li>
+            <li className = "collection-item" >geolocation: <b className = "yellow" > this.state.details.geoLocaction.toString()</b> </li>
+            <li className = "collection-item" >notes: <b className = "yellow" > {this.state.details.notes}</b> </li>
+            <li className = "collection-item" >size: <b className = "yellow" > {this.state.details.size}</b> </li>
+            <li className = "collection-item" >last checked: <b className = "yellow" > {this.state.details.date_last_checked}</b> </li>
             </ul>
             <Link className = "btn" to = {`/barrels/edit/${this.state.details.id}`}>Edit this Barrel</Link>
             <button className = "btn red right">Delete</button>
