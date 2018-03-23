@@ -28,7 +28,7 @@ getBarrel(){
 
 render () {
     return (
-            <div>
+            <div className = "container" >
             <br />
             <Link className = "btn grey" to = "/">back</Link>
             <h3>{this.state.details.Name}</h3>
@@ -42,8 +42,8 @@ render () {
             <li className = "collection-item" >size: <b className = "yellow" > {this.state.details.size}</b> </li>
             <li className = "collection-item" >last checked: <b className = "yellow" > {this.state.details.date_last_checked}</b> </li>
             </ul>
-            <Link className = "btn" to = {`/barrels/edit/${this.state.details.id}`}>Edit this Barrel</Link>
-            <button className = "btn red right">Delete</button>
+            <Link className = "btn left" to = {`/barrels/edit/${this.state.details.id}`}><i class="fas fa-pencil-alt"></i> Edit this Barrel</Link>
+            <button className = "btn red right"><i class="far fa-trash-alt"></i> Delete this Barrel</button>
             </div>
            )
 }
