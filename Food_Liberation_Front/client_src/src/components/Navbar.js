@@ -9,7 +9,7 @@ class NavBar extends Component {
       <div>
   <nav className="green darken-3">
     <div className="nav-wrapper">
-      <a href="/" className="brand-logo">Food Liberation Front</a>
+      <a href="/" className="brand-logo"><i class="fas fa-utensils"></i> Food Liberation Front</a>
       <a data-activates="main-menu" className="button-collapse show-on-large"><i className="fa fa-bars"></i></a>
       <ul className="right hide-on-small-only">
         <li><Link to ="/"><i className="fa fa-database"></i> Barrels</Link></li>

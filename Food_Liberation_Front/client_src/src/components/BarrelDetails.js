@@ -26,6 +26,14 @@ getBarrel(){
     .catch(err => console.log(err));
   }
 
+onDelete(){
+    let barrelID = this.state.details.id;
+    axios.delete(`http://foood-liberation-front-turtlewolfe.c9users.io:8080/api/Barrels/${barrelID}`)
+    .then ( response => {
+        this.props.history.push('/');
+    } ).catch(err => console.log(err));
+}
+
 render () {
     return (
             <div className = "container" >
@@ -43,7 +51,7 @@ render () {
             <li className = "collection-item" >last checked: <b className = "yellow" > {this.state.details.date_last_checked}</b> </li>
             </ul>
             <Link className = "btn left" to = {`/barrels/edit/${this.state.details.id}`}><i className = "fas fa-pencil-alt" ></i> Edit this Barrel</Link>
-            <button className = "btn red right"><i className ="far fa-trash-alt"></i> Delete this Barrel</button>
+            <button onClick = {this.onDelete.bind(this) } className = "btn red right"><i className ="far fa-trash-alt"></i> Delete this Barrel</button>
             </div>
            )
 }
