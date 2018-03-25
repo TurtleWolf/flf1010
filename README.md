@@ -5,9 +5,14 @@ npm install -g create-react-app
 # Food_Liberation_Front  
 ### loopBACK &amp; react on Cloud 9  
 ```
-cd Food_Liberation_Front
 npm install
 node .
+```
+###### open new terminal
+```
+cd client_src
+npm install
+npm start
 ```
 ### or to recreate from scratch.. 
 http://loopback.io/doc/en/lb3/Create-new-data-source.html  

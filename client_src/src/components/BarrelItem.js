@@ -12,7 +12,7 @@ class BarrelItem extends Component {
     
     render () {
         return (
-            <li className = "collection-item">
+            <li className = "collection-item yellow">
                 <Link to = {`/barrels/${this.state.item.id}`}>
                 {this.state.item.Name}</Link>
             </li>

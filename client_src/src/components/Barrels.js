@@ -36,7 +36,7 @@ class Barrels extends Component {
     return (
       <div className="container">
         <header className="App-header">
-          <h1 className="App-title">Barrels</h1>
+          <h2>Barrels</h2>
         </header>
         <ul className = "collection" >
         {barrelItems}

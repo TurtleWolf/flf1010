@@ -7,7 +7,7 @@ import AddBarrel from './AddBarrel';
 import BarrelEdit from './BarrelEdit';
 
 const Main = () => (
-    <main>
+    <main className="green">
     <Switch>
     <Route exact path= '/' component={Barrels} />
     <Route exact path= '/about' component={About} />

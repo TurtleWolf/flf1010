@@ -7,7 +7,7 @@ class About extends Component {
     return (
       <div className="container">
         <header className="App-header">
-          <h1 className="App-title">frontlines of food & liberty</h1>
+          <h2>frontlines of food & liberty</h2>    
         </header>
         <p className="App-intro">
         TurtleWolfe.com<br/>

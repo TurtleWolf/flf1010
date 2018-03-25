@@ -32,7 +32,7 @@ class AddBarrel extends Component {
 
     render () {
     return (
-            <div className = "container" >
+            <div className = "container green lighten-3" >
             <br />
             <Link className = "btn grey" to = "/">back</Link>
             <h6>add a Barrel</h6>

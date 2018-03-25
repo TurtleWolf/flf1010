@@ -36,10 +36,13 @@ onDelete(){
 
 render () {
     return (
-            <div className = "container" >
-            <br />
-            <Link className = "btn grey" to = "/">back</Link>
-            <h3>{this.state.details.Name}</h3>
+        <div className = "container" >
+
+        <header className="App-header">
+        <h2>{this.state.details.Name}</h2>
+        <Link className = "btn grey" to = "/">back</Link>
+        </header>
+
             <ul className = "collection" >
             <li className = "collection-item" >planted: <b className = "yellow" > {this.state.details.date_planted}</b> </li>
             <li className = "collection-item" >Barrel #: <b className = "yellow" > {this.state.details.barrel_number}</b> </li>
