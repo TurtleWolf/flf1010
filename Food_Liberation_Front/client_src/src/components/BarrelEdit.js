@@ -16,23 +16,14 @@ class EditBarrel extends Component {
             date_last_checked:'',
             notes:''
         }
+ this.handleInputChange = this.handleInputChange.bind(this);
     }
     
     componentWillMount(){
         this.getBarrelDetails();
     }
-    
-    editBarrel(newBarrel){
-        console.log(newBarrel);
-        axios.request({
-            method:'post',
-            url:'http://foood-liberation-front-turtlewolfe.c9users.io:8080/api/Barrels',
-            data: newBarrel
-        }).then(response => {
-            this.props.history.push('/');
-        }).catch( err => console.log(err));
-    }
-    
+
+
     getBarrelDetails(){
     let barrelID = this.props.match.params.id;
     axios.get(`http://foood-liberation-front-turtlewolfe.c9users.io:8080/api/Barrels/${barrelID}`)
@@ -54,8 +45,22 @@ class EditBarrel extends Component {
     .catch(err => console.log(err));
   }
     
+    editBarrel(newBarrel){
+        //let barrelID = this.props.match.params.id;
+        //console.log(newBarrel);
+        axios.request({
+            method:'put',
+            url:`http://foood-liberation-front-turtlewolfe.c9users.io:8080/api/barrels/${this.state.id}`,
+            data: newBarrel
+        }).then(response => {
+            this.props.history.push('/');
+        }).catch( err => console.log(err));
+    }
+
+
     onSubmit(e){
         const newBarrel = {
+            //id: this.refs.id.value,
             Name: this.refs.Name.value,
             barrel_number: this.refs.barrel_number.value,
             contents: this.refs.contents.value,
@@ -69,6 +74,18 @@ class EditBarrel extends Component {
         e.preventDefault();
     }
 
+    handleInputChange (e){
+        //const target = e.target;
+        const value = e.target.value;
+        const key = e.target.name;
+        
+        this.setState({
+            [key]: value
+        });
+        
+    }
+
+
     render () {
     return (
             <div className = "container" >
@@ -77,35 +94,35 @@ class EditBarrel extends Component {
             <h6>Edit this Barrel</h6>
             <form onSubmit = {this.onSubmit.bind(this)}>
                 <div className = "input-field" >
-                    <input type = "text" name = "Name" ref = "Name" value = {this.state.Name} />
+                    <input type = "text" name = "Name" ref = "Name" value = {this.state.Name} onChange = {this.handleInputChange} />
                     <label htmlFor = "Name" >Name</label>
                 </div>
                 <div className = "input-field" >
-                    <input type = "text" name = "barrel_number" ref = "barrel_number"  value = {this.state.Name} />
+                    <input type = "text" name = "barrel_number" ref = "barrel_number"  value = {this.state.barrel_number} onChange = {this.handleInputChange} />
                     <label htmlFor = "barrel_number" >barrel number</label>
                 </div>
                 <div className = "input-field" >
-                    <input type = "text" name = "contents" ref = "contents"  value = {this.state.contents} />
+                    <input type = "text" name = "contents" ref = "contents"  value = {this.state.contents} onChange = {this.handleInputChange} />
                     <label htmlFor = "contents" >contents</label>
                 </div>
                 <div className = "input-field" >
-                    <input type = "date" name = "date_planted" ref = "date_planted" value = {this.state.date_planted}  />
+                    <input type = "date" name = "date_planted" ref = "date_planted" value = {this.state.date_planted} onChange = {this.handleInputChange} />
                     <label htmlFor = "date_planted" ></label>
                 </div>
                 <div className = "input-field" >
-                    <input type = "date" name = "date_last_checked" ref = "date_last_checked"  value = {this.state.date_last_checked} />
+                    <input type = "date" name = "date_last_checked" ref = "date_last_checked"  value = {this.state.date_last_checked} onChange = {this.handleInputChange} />
                     <label htmlFor = "date_last_checked" ></label>
                 </div>
                 <div className = "input-field" >
-                    <input type = "text" name = "location" ref = "location" value = {this.state.location}  />
+                    <input type = "text" name = "location" ref = "location" value = {this.state.location} onChange = {this.handleInputChange} />
                     <label htmlFor = "location" >location</label>
                 </div>
                 <div className = "input-field" >
-                    <input type = "text" name = "size" ref = "size"  value = {this.state.size} />
+                    <input type = "text" name = "size" ref = "size"  value = {this.state.size} onChange = {this.handleInputChange} />
                     <label htmlFor = "size" >size</label>
                 </div>
                 <div className = "input-field" >
-                    <input type = "text" name = "notes" ref = "notes" value = {this.state.notes}  />
+                    <input type = "text" name = "notes" ref = "notes" value = {this.state.notes} onChange = {this.handleInputChange} />
                     <label htmlFor = "notes" >notes</label>
                 </div>                
                 
