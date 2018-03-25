@@ -1,3 +1,7 @@
+```
+npm install -g create-react-app
+```
+
 # Food_Liberation_Front  
 ### loopBACK &amp; react on Cloud 9  
 ```
