@@ -3,6 +3,7 @@ import './App.css';
 import Main from './components/Main';
 import NavBar from './components/Navbar';
 import { Link } from 'react-router-dom';
+//import logo from './logo.svg';
 const App = () => (
       <div className="App">
       <NavBar/>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-
+import logo from '../logo.svg';
 class BarrelDetails extends Component {
     constructor (props){
        super(props);
@@ -55,6 +55,13 @@ render () {
             </ul>
             <Link className = "btn left" to = {`/barrels/edit/${this.state.details.id}`}><i className = "fas fa-pencil-alt" ></i> Edit this Barrel</Link>
             <button onClick = {this.onDelete.bind(this) } className = "btn red right"><i className ="far fa-trash-alt"></i> Delete this Barrel</button>
+            
+        <p className="App-intro">
+        TurtleWolfe.com<br/>
+        using LoopBack & React<br/>
+        <img src={logo} className="App-logo" alt="logo" />
+        </p>
+            
             </div>
            )
 }
