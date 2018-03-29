@@ -1,9 +1,10 @@
-1. editbarrel/ dates prefill
-2. component grouping by directory
-3. login component
-4. hide creditentials
-5. sure you want to delete  
-6. serve static, see below or just change build pack?
++ editbarrel/ dates prefill
++ component grouping by directory
++ login component
++ hide creditentials
++ sure you want to delete  
++ serve static, see below or just change build pack?
+7. codeship pipeline
 
 The build folder is ready to be deployed.
 You may serve it with a static server:
