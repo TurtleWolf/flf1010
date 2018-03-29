@@ -17,7 +17,7 @@ class Barrels extends Component {
   }
   
   getBarrels(){
-    axios.get('http://foood-liberation-front-turtlewolfe.c9users.io:8080/api/Barrels')
+    axios.get('/api/Barrels')
     .then (response => {
       this.setState({barrels: response.data}, () =>
       {
