@@ -8,7 +8,7 @@ class AddBarrel extends Component {
         console.log(newBarrel);
         axios.request({
             method:'post',
-            url:'http://foood-liberation-front-turtlewolfe.c9users.io:8080/api/Barrels',
+            url:'/api/Barrels',
             data: newBarrel
         }).then(response => {
             this.props.history.push('/');
