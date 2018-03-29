@@ -26,7 +26,7 @@ class EditBarrel extends Component {
 
     getBarrelDetails(){
     let barrelID = this.props.match.params.id;
-    axios.get(`http://foood-liberation-front-turtlewolfe.c9users.io:8080/api/Barrels/${barrelID}`)
+    axios.get(`/api/Barrels/${barrelID}`)
     .then (response => {
       this.setState({
             id:response.data.id,
@@ -50,7 +50,7 @@ class EditBarrel extends Component {
         //console.log(newBarrel);
         axios.request({
             method:'put',
-            url:`http://foood-liberation-front-turtlewolfe.c9users.io:8080/api/barrels/${this.state.id}`,
+            url:`/api/barrels/${this.state.id}`,
             data: newBarrel
         }).then(response => {
             this.props.history.push('/');
