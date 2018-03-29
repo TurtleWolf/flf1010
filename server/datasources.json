@@ -5,12 +5,12 @@
   },
   "mLAB": {
     "host": "",
-    "port": 61678,
-    "url": "mongodb://food-liberation-front:92!1WdzRBH*a@ds261678.mlab.com:61678/food-liberation-front",
-    "database": "food-liberation-front",
-    "password": "92!1WdzRBH*a",
+    "port": 33158,
+    "url": "mongodb://heroku_62wvkfd5:unc5vm3ja56957l8qs6dnlhlfe@ds133158.mlab.com:33158/heroku_62wvkfd5",
+    "database": "heroku_62wvkfd5",
+    "password": "unc5vm3ja56957l8qs6dnlhlfe",
     "name": "mLAB",
-    "user": "food-liberation-front",
+    "user": "heroku_62wvkfd5",
     "connector": "mongodb"
   }
 }
