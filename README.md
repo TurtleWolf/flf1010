@@ -1,3 +1,10 @@
+1. editbarrel/ dates prefill
+2. component grouping by directory
+3. login component
+4. hide creditentials
+5. sure you want to delete  
+6. serve static, see below or just change build pack?
+
 The build folder is ready to be deployed.
 You may serve it with a static server:
 ```
