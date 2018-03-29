@@ -16,7 +16,7 @@ componentWillMount(){
 
 getBarrel(){
     let barrelID = this.props.match.params.id;
-    axios.get(`http://foood-liberation-front-turtlewolfe.c9users.io:8080/api/Barrels/${barrelID}`)
+    axios.get(`/api/Barrels/${barrelID}`)
     .then (response => {
       this.setState({details: response.data}, () =>
       {
@@ -28,7 +28,7 @@ getBarrel(){
 
 onDelete(){
     let barrelID = this.state.details.id;
-    axios.delete(`http://foood-liberation-front-turtlewolfe.c9users.io:8080/api/Barrels/${barrelID}`)
+    axios.delete(`/api/Barrels/${barrelID}`)
     .then ( response => {
         this.props.history.push('/');
     } ).catch(err => console.log(err));
