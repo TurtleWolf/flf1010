@@ -1,10 +1,11 @@
 + editbarrel/ dates prefill
++ sure you want to delete 
 + component grouping by directory
 + login component
 + hide creditentials
-+ sure you want to delete  
++ html5 boiler plate over frontend 
 + serve static, see below or just change build pack?
-7. codeship pipeline
+8. codeship pipeline
 
 The build folder is ready to be deployed.
 You may serve it with a static server:
