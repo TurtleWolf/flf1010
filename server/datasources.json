@@ -6,7 +6,7 @@
   "mLAB": {
     "host": "",
     "port": 33158,
-    "url": "mongodb://heroku_62wvkfd5:unc5vm3ja56957l8qs6dnlhlfe@ds133158.mlab.com:33158/heroku_62wvkfd5",
+    "url": "mongodb://heroku_207knm82:ujsas0thmd7put4c0fomgqiuih@ds231199.mlab.com:31199/heroku_207knm82",
     "database": "heroku_62wvkfd5",
     "password": "unc5vm3ja56957l8qs6dnlhlfe",
     "name": "mLAB",
