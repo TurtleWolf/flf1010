@@ -110,8 +110,8 @@ class EditBarrel extends Component {
                     <label htmlFor = "date_planted" ></label>
                 </div>
                 <div className = "input-field" >
-                    <input type="text" class="datepicker" name = "date_planted" ref = "date_planted" value = {this.state.date_planted} onChange = {this.handleInputChange} />
-                    <label htmlFor = "date_planted" ></label>
+                    <input type="text" class="datepicker" name = "date_plantod" ref = "date_plantod" value = {this.state.date_planted} onChange = {this.handleInputChange} />
+                    <label htmlFor = "date_plantod" ></label>
                 </div>                
                 <div className = "input-field" >
                     <input type="text" class="datepicker" name = "date_last_checked" ref = "date_last_checked"  value = {this.state.date_last_checked} onChange = {this.handleInputChange} />
