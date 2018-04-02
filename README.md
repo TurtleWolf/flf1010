@@ -3,13 +3,11 @@
 
 + editbarrel/ dates prefill  
 + new Date(year, month, day, hours, minutes, seconds, milliseconds)
-+ sure you want to delete 
++ materialize modal, are you sure you want to delete ?
 + component grouping by directory
 + login component
 + hide creditentials
-+ html5 boiler plate over frontend 
-+ serve static, see below or just change build pack?
-8. codeship pipeline
+7. html5 boiler plate over frontend 
 
 The build folder is ready to be deployed.
 You may serve it with a static server:
