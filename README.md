@@ -1,12 +1,14 @@
 [https://food-liberation-front.herokuapp.com](https://food-liberation-front.herokuapp.com "https://food-liberation-front.herokuapp.com")  
 [ ![Codeship Status for TurtleWolf/Food_Liberation_Front](https://app.codeship.com/projects/b17266d0-178b-0136-1e4a-2ec870b43e0e/status?branch=master)](https://app.codeship.com/projects/283831)  
 
+
 + editbarrel/ dates prefill  
 + new Date(year, month, day, hours, minutes, seconds, milliseconds)
 + materialize modal, are you sure you want to delete ?
 + component grouping by directory
 + login component
-+ hide creditentials
++ hide creditentials  //  npm install dotenv --save  
+[Node environment variables](https://codeburst.io/how-to-easily-set-up-node-environment-variables-in-your-js-application-d06740f9b9bd "How to (easily) set up Node environment variables in your JS application")
 7. html5 boiler plate over frontend 
 
 The build folder is ready to be deployed.
