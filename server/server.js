@@ -2,7 +2,8 @@
 
 var loopback = require('loopback');
 var boot = require('loopback-boot');
-
+//  feels like it should go here, but I'm still misig something..
+//require('dotenv').config();
 var app = module.exports = loopback();
 
 app.start = function() {
