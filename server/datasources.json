@@ -4,13 +4,13 @@
     "connector": "memory"
   },
   "mLAB": {
-    "host": `${process.env.DB_HOST}`,
-    "port": `${process.env.DB_PORT || 27017}`,
-    "url": `${process.env.MONGODB_URI}`,
-    "database": `${process.env.DB_DATABASE}`,
-    "password": `${process.env.DB_PASSWORD}`,
-    "user": `${process.env.DB_USER}`,
-    "name": `${process.env.DB_NAME}`,
+    "host": "ds261678.mlab.com",
+    "port": "61678",
+    "url": "mongodb://turtle:h0gsc0tch@ds261678.mlab.com:61678/food-liberation-front",
+    "database": "food-liberation-front",
+    "password": "h0gsc0tch",
+    "user": "turtle",
+    "name": "mLAB",
     "connector": "mongodb"
   }
 }
