@@ -4,7 +4,7 @@
     "connector": "memory"
   },
   "mLAB": {
-    "host": ${process.env.DB_HOST},
+    "host": process.env.DB_HOST,
     "port": process.env.DB_PORT || 27017,
     "url": process.env.MONGODB_URI,
     "database": process.env.DB_DATABASE,
