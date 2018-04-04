@@ -56,6 +56,37 @@ render () {
             <Link className = "btn left" to = {`/barrels/edit/${this.state.details.id}`}><i className = "fas fa-pencil-alt" ></i> Edit this Barrel</Link>
             <button onClick = {this.onDelete.bind(this) } className = "btn red right"><i className ="far fa-trash-alt"></i> Delete this Barrel</button>
             
+            
+                    
+        <h1>MODAL</h1>
+
+        
+        <a href="#modal1" class="btn waves-effect">Modal 1</a>
+        <a href="#modal2" class="btn waves-effect red">Modal 2</a>
+
+        
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>A bunch of text</p>
+          </div>
+          <div class="modal-footer">
+            <a href="" class="modal-action modal-close waves-effect waves-green">Button</a>
+          </div>
+        </div>
+
+        <div id="modal2" class="modal">
+          <div class="modal-content">
+            <h4>Modal 2 Header</h4>
+            <p>A bunch of text</p>
+          </div>
+          <div class="modal-footer">
+            <a href="" class="modal-action modal-close waves-effect waves-green">Button</a>
+          </div>
+        </div>
+            
+            
+            
         <p className="App-intro">
         TurtleWolfe.com<br/>
         using LoopBack & React<br/>
