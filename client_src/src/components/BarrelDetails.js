@@ -53,35 +53,31 @@ render () {
             <li className = "collection-item" >size: <b className = "yellow" > {this.state.details.size}</b> </li>
             <li className = "collection-item" >last checked: <b className = "yellow" > {this.state.details.date_last_checked}</b> </li>
             </ul>
-            <Link className = "btn left" to = {`/barrels/edit/${this.state.details.id}`}><i className = "fas fa-pencil-alt" ></i> Edit this Barrel</Link>
             <button onClick = {this.onDelete.bind(this) } className = "btn red right"><i className ="far fa-trash-alt"></i> Delete this Barrel</button>
-            
-            
-                    
-        <h1>MODAL</h1>
+
+        <h5>what that modal do?</h5>
+
+        <Link to={`/barrels/edit/${this.state.details.id}`} className="btn waves-effect"><i className = "fas fa-pencil-alt" ></i> Edit this Barrel</Link>
+        <Link to={`#modal2`} className="btn waves-effect red"><i className ="far fa-trash-alt"></i> Delete this Barrel</Link>
 
         
-        <a href="#modal1" class="btn waves-effect">Modal 1</a>
-        <a href="#modal2" class="btn waves-effect red">Modal 2</a>
-
-        
-        <div id="modal1" class="modal">
-          <div class="modal-content">
+        <div id="modal1" className="modal">
+          <div className="modal-content">
             <h4>Modal Header</h4>
             <p>A bunch of text</p>
           </div>
-          <div class="modal-footer">
-            <a href="" class="modal-action modal-close waves-effect waves-green">Button</a>
+          <div className="modal-footer">
+            <a href="" className="modal-action modal-close waves-effect waves-green">Button</a>
           </div>
         </div>
 
-        <div id="modal2" class="modal">
-          <div class="modal-content">
-            <h4>Modal 2 Header</h4>
+        <div id="modal2" className="modal orange">
+          <div className="modal-content">
+            <h4>Are you sure you want to delete</h4>
             <p>A bunch of text</p>
           </div>
-          <div class="modal-footer">
-            <a href="" class="modal-action modal-close waves-effect waves-green">Button</a>
+          <div className="modal-footer">
+            <a href="" className="modal-action modal-close waves-effect waves-green">Button</a>
           </div>
         </div>
             
