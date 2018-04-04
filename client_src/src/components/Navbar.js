@@ -7,8 +7,8 @@ class NavBar extends Component {
   render() {
     return (
       <div>
-  <nav className="green darken-3">
-    <div className="nav-wrapper">
+  <nav className="green darken-3 z-depth-5">
+    <div className="nav-wrapper z-depth-5">
       <a href="/" className="brand-logo"><i className="fas fa-utensils"></i> Food Liberation Front</a>
       <a data-activates="main-menu" className="button-collapse show-on-large"><i className="fa fa-bars"></i></a>
       <ul className="right hide-on-small-only">

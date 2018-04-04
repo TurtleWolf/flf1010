@@ -38,12 +38,12 @@ render () {
     return (
         <div className = "container" >
 
-        <header className="App-header">
+        <header className="App-header z-depth-3">
         <h2>{this.state.details.Name}</h2>
         <Link className = "btn grey" to = "/">back</Link>
         </header>
 
-            <ul className = "collection" >
+            <ul className = "collection z-depth-3" >
             <li className = "collection-item" >planted: <b className = "yellow" > {this.state.details.date_planted}</b> </li>
             <li className = "collection-item" >Barrel #: <b className = "yellow" > {this.state.details.barrel_number}</b> </li>
             <li className = "collection-item" ><b className = "yellow" > {this.state.details.contents}</b> </li>
@@ -57,8 +57,8 @@ render () {
 
         <h5>what that modal do?</h5>
 
-        <Link to={`/barrels/edit/${this.state.details.id}`} className="btn waves-effect"><i className = "fas fa-pencil-alt" ></i> Edit this Barrel</Link>
-        <Link to={`#modal2`} className="btn waves-effect red"><i className ="far fa-trash-alt"></i> Delete this Barrel</Link>
+        <Link to={`/barrels/edit/${this.state.details.id}`} className="btn waves-effect z-depth-3"><i className = "fas fa-pencil-alt" ></i> Edit this Barrel</Link>
+        <Link to={`#modal2`} className="btn waves-effect red"><i className ="far fa-trash-alt z-depth-3"></i> Delete this Barrel</Link>
 
         
         <div id="modal1" className="modal">
