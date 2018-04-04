@@ -4,13 +4,13 @@
     "connector": "memory"
   },
   "mLAB": {
-    "host": "",
-    "port": 33158,
-    "url": "${process.env.MONGODB_URI}",
-    "database": "heroku_62wvkfd5",
-    "password": "unc5vm3ja56957l8qs6dnlhlfe",
-    "name": "mLAB",
-    "user": "heroku_62wvkfd5",
+    "host": process.env.DB_HOST,
+    "port": process.env.DB_PORT || 27017,
+    "url": process.env.MONGODB_URI,
+    "database": process.env.DB_DATABASE,
+    "password": process.env.DB_PASSWORD,
+    "user": process.env.DB_USER,
+    "name": process.env.DB_NAME,
     "connector": "mongodb"
   }
 }
