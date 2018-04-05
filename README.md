@@ -1,13 +1,16 @@
 [https://flf9090.herokuapp.com](https://flf9090.herokuapp.com "https://flf9090.herokuapp.com")  
 
 + editbarrel/ dates prefill :heavy_check_mark:  
-+ datepicker doesn't appear until after refresh
++ datepicker doesn't appear until after refresh  
+[https://flf9090.herokuapp.com](https://flf9090.herokuapp.com "https://flf9090.herokuapp.com")  
 + new Date(addbarrel/ dates prefill(copy from edit))
-+ materialize modal, are you sure you want to delete ? (CSS display:none?)
++ materialize modal, are you sure you want to delete ? (CSS display:none?)  
+[https://flf9090.herokuapp.com](https://flf9090.herokuapp.com "https://flf9090.herokuapp.com")  
 + component grouping by directory
 + login component
 + hide creditentials  //  npm install dotenv --save  
 [Node environment variables](https://codeburst.io/how-to-easily-set-up-node-environment-variables-in-your-js-application-d06740f9b9bd "How to (easily) set up Node environment variables in your JS application")  
+[https://flf9090.herokuapp.com](https://flf9090.herokuapp.com "https://flf9090.herokuapp.com") 
 7. html5 boiler plate over frontend   
 
 //  "homepage" : "https://ide.c9.io/turtlewolfe/flf9090",  
