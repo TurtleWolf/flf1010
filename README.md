@@ -11,8 +11,9 @@
 + component grouping by directory
 + login component
 + hide creditentials  //  npm install dotenv --save  
+[https://stackoverflow.com/questions/production back to developement](https://stackoverflow.com/questions/49640853/production-back-to-developement "//  npm install dotenv --save")  
 [Node environment variables](https://codeburst.io/how-to-easily-set-up-node-environment-variables-in-your-js-application-d06740f9b9bd "How to (easily) set up Node environment variables in your JS application")  
-[https://flf9090.herokuapp.com](https://flf9090.herokuapp.com "https://flf9090.herokuapp.com") 
+ 
 7. html5 boiler plate over frontend   
 
 //  "homepage" : "https://ide.c9.io/turtlewolfe/flf9090",  
