@@ -1,6 +1,7 @@
 [https://flf9090.herokuapp.com](https://flf9090.herokuapp.com "https://flf9090.herokuapp.com")  
 
-+ editbarrel/ dates prefill  
+:heavy_check_mark: + editbarrel/ dates prefill  
++ addbarrel/ dates prefill(copy from edit)
 + new Date(year, month, day, hours, minutes, seconds, milliseconds)
 + materialize modal, are you sure you want to delete ?
 + component grouping by directory
