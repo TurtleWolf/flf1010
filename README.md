@@ -1,11 +1,13 @@
 [https://flf9090.herokuapp.com](https://flf9090.herokuapp.com "https://flf9090.herokuapp.com")  
 
 + editbarrel/ dates prefill :heavy_check_mark:  
-+ datepicker doesn't appear until after refresh  
-[https://flf9090.herokuapp.com](https://flf9090.herokuapp.com "https://flf9090.herokuapp.com")  
+[https://stackoverflow.com/questions/The specified value does not conform to the required format](https://stackoverflow.com/questions/49602120/the-specified-value-does-not-conform-to-the-required-format-or-my-date-picker-be "The specified value does not conform to the required format or my date-picker becomes unassailable")
+
++ [https://stackoverflow.com/questions/datepicker doesn't appear until after refresh](https://stackoverflow.com/questions/49611014/datepicker-inaccessible-until-after-refresh "https://stackoverflow.com/questions/49611014/datepicker-inaccessible-until-after-refresh")  
+  
 + new Date(addbarrel/ dates prefill(copy from edit))
 + materialize modal, are you sure you want to delete ? (CSS display:none?)  
-[https://flf9090.herokuapp.com](https://flf9090.herokuapp.com "https://flf9090.herokuapp.com")  
+[https://stackoverflow.com/Delete modal does not change CSS.display](https://stackoverflow.com/questions/49659483/delete-modal-does-not-change-css-display "Delete modal does not change CSS.display")  
 + component grouping by directory
 + login component
 + hide creditentials  //  npm install dotenv --save  
