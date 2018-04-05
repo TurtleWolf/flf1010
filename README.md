@@ -1,6 +1,6 @@
 [https://flf9090.herokuapp.com](https://flf9090.herokuapp.com "https://flf9090.herokuapp.com")  
 
-:heavy_check_mark: + editbarrel/ dates prefill  
++ editbarrel/ dates prefill :heavy_check_mark:  
 + addbarrel/ dates prefill(copy from edit)
 + new Date(year, month, day, hours, minutes, seconds, milliseconds)
 + materialize modal, are you sure you want to delete ?
@@ -9,6 +9,7 @@
 + hide creditentials  //  npm install dotenv --save  
 [Node environment variables](https://codeburst.io/how-to-easily-set-up-node-environment-variables-in-your-js-application-d06740f9b9bd "How to (easily) set up Node environment variables in your JS application")  
 7. html5 boiler plate over frontend   
+
 //  "homepage" : "https://ide.c9.io/turtlewolfe/flf9090",  
 The build folder is ready to be deployed.
 You may serve it with a static server:
